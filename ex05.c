@@ -6,7 +6,7 @@ void ft_putstr(char *str);
 
 int main(void) {
 
-	printf("Calling ft_div_mod(\"TESTING 42\");\n"); 
+	printf("Calling ft_div_mod(\"AbuDhabi-42\");\n"); 
 	ft_putstr("AbuDhabi-42");
 
     return (0);
