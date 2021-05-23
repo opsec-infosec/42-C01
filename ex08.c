@@ -1,8 +1,8 @@
 #include <unistd.h>
 #include <stdio.h>
-#include "../ex07/ft_rev_int_tab.c"
+#include "../ex08/ft_sort_int_tab.c"
 
-void ft_rev_int_tab(int *tab, int size);
+void ft_sort_int_tab(int *tab, int size);
 
 int main(void) {
 	
@@ -13,7 +13,7 @@ int main(void) {
 	printf("a = ");
 	for (i = 0;i < size;i++)
 		printf("%d ",*(a+i));
-	printf("\nCalling ft_rev_int_tab(a, 5);\n"); 
+	printf("\nCalling ft_sort_int_tab(a, 5);\n"); 
 	ft_rev_int_tab(a, size);
 	printf("a = ");
 	for (i = 0;i < size;i++)	
