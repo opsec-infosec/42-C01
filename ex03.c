@@ -1,6 +1,6 @@
 #include <unistd.h>
 #include <stdio.h>
-#include "../Ex03/ft_div_mod.c"
+#include "../ex03/ft_div_mod.c"
 
 void ft_div_mod(int a, int b, int *div, int *mod);
 
